@@ -54,3 +54,21 @@ code {
 button {
   font-size: calc(10px + 2vmin);
 }
+
+@font-face {
+  font-family: "lato";
+  src: url("./assets/fonts/lato/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "josefin";
+  src: url("./assets/fonts/josefin/JosefinSans-Bold.ttf") format("truetype");
+}
+
+* {
+  font-family: "lato", sans-serif;
+  background: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
