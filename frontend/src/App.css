@@ -28,14 +28,24 @@ code {
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #000000;
+  min-height: 3rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.castle {
+  background-image: url(../images/castle.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-link {

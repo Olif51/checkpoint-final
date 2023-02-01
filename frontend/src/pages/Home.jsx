@@ -6,7 +6,11 @@ export default function Home() {
       <header className="App-header">
         <Navbar />
       </header>
-      <img src="./assets/castle.jpg" alt="castle" className="castle" />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Windsor_Castle_at_Sunset_-_Nov_2006.jpg/280px-Windsor_Castle_at_Sunset_-_Nov_2006.jpg"
+        alt="castle"
+        className="castle"
+      />
 
       <div className="text">
         <p>
